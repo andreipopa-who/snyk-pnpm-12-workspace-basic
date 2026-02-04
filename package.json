@@ -1,0 +1,6 @@
+{
+  "name": "workspace-basic-root",
+  "version": "1.0.0",
+  "description": "Root package for pnpm workspace test",
+  "private": true
+}

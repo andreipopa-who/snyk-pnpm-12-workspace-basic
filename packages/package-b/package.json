@@ -1,0 +1,10 @@
+{
+  "name": "@test/package-b",
+  "version": "1.0.0",
+  "description": "Package B in workspace",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2",
+    "minimist": "1.2.5"
+  }
+}
