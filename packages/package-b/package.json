@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "express": "^4.18.2",
-    "minimist": "1.2.5"
+    "minimist": "1.2.5",
+    "axios": "^1.0.0"
   }
 }
