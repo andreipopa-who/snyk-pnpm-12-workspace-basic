@@ -11,10 +11,10 @@ importers:
   packages/package-a:
     dependencies:
       axios:
-        specifier: ^1.6.0
+        specifier: ^1.7.0
         version: 1.13.4
       fastify:
-        specifier: ^4.26.0
+        specifier: ^4.27.0
         version: 4.29.1
       lodash:
         specifier: ^4.17.21
@@ -23,14 +23,14 @@ importers:
   packages/package-b:
     dependencies:
       axios:
-        specifier: ^1.0.0
+        specifier: ^1.7.0
         version: 1.13.4
       express:
         specifier: ^4.18.2
         version: 4.22.1
       minimist:
-        specifier: 1.2.5
-        version: 1.2.5
+        specifier: 1.2.6
+        version: 1.2.6
 
 packages:
 
@@ -322,8 +322,8 @@ packages:
     engines: {node: '>=4'}
     hasBin: true
 
-  minimist@1.2.5:
-    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
+  minimist@1.2.6:
+    resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
 
   ms@2.0.0:
     resolution: {integrity: sha512-Tpp60P6IUJDTuOq/5Z8cdskzJujfwqfOTkrwIwj7IRISpnkJnT6SyJ4PCPnGMoFjC9ddhal5KVIYtAt97ix05A==}
@@ -836,7 +836,7 @@ snapshots:
 
   mime@1.6.0: {}
 
-  minimist@1.2.5: {}
+  minimist@1.2.6: {}
 
   ms@2.0.0: {}
 
